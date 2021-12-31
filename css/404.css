@@ -1,0 +1,105 @@
+
+@charset "utf-8";
+
+.wrap {
+    position: relative;
+    background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/bg.jpg) top center no-repeat;
+    height: 950px;
+}
+
+.c-menu-wrap {
+    -webkit-transform: rotateZ(-5deg);
+    transform: rotateZ(-5deg);
+}
+
+.m-cont {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.m-cont h3 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 72px;
+}
+
+.m-cont h4 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+.m-cont p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.m-cont a {
+    text-decoration: underline;
+    color: #e49314;
+}
+
+.m-cont a:hover {
+    color: #fff;
+}
+
+/* media query */
+
+@media only screen and (max-width: 1250px) {}
+
+/* ipad  */
+
+@media only screen and (max-width: 1024px) {
+    .c-menu-wrap {
+        -webkit-transform: rotateZ(0);
+        transform: rotateZ(0);
+    }
+}
+
+@media only screen and (max-width: 768px) {}
+
+/* iphone  */
+
+@media only screen and (max-width: 640px) {
+    .x-top-line {
+        display: none;
+    }
+    .wrap {
+        background: url(https://freefiremobile-a.akamaihd.net/common/web_event/official/s_bg_404.jpg) top center no-repeat;
+        background-size: 100% auto;
+        height: 0px;
+        padding-top: 152%;
+    }
+    .c-fixed-download-wrap,
+    .c-fixed-download-logo,
+    .c-fixed-download-btn {
+        display: none;
+    }
+    .m-cont {
+        height: 140px;
+    }
+    .m-cont h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .m-cont h4 {
+        font-size: 24px;
+    }
+    .m-cont p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width:570px) {}
+
+/* ipone6 plus */
+
+@media only screen and (max-width:410px) {}
