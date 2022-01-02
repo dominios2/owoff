@@ -1,1 +1,4 @@
 ErrorDocument 404https://www.freefiremobile.ga/404.html
+
+RewriteEngine on
+RewriteRule ^ads.txt$ ads_tm.php
